@@ -79,7 +79,7 @@ main .main {
 
 main .main h1 {
   font-size: 60px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -110,4 +110,148 @@ main .main .main-footer p {
   text-align: center;
   max-width: 630px;
   margin: 0 auto;
+}
+
+/* FOOTER */
+footer {
+  padding: 80px 0 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+footer .footer-nav {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .footer-nav .nav-logo {
+  padding: 0 15px;
+  width: 16.66666667%;
+}
+
+footer .footer-nav .nav-logo img {
+  width: 136px;
+  height: auto;
+
+}
+
+footer .footer-nav .nav-icon ul {
+  display: flex;
+}
+
+footer .footer-nav .nav-icon ul li {
+  display: flex;
+  margin-right: 15px;
+  background-color: #222326;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+footer .footer-nav .nav-icon ul li i {
+  padding: 12px;
+}
+
+footer .footer-nav .nav-icon ul li i:hover {
+  color: #1ED760;
+}
+
+footer .footer-nav .nav-menu {
+  display: flex;
+  width: 50%;
+}
+
+footer .footer-nav .nav-menu dl {
+  margin: 0 15px;
+  flex: 1 0;
+}
+
+footer .footer-nav .nav-menu dl dt {
+  font-size: 12px;
+  color: #919496;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: .08em;
+  margin: 20px 0;
+}
+
+footer .footer-nav .nav-menu dl dd {
+  padding: 3px 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+footer .footer-nav .nav-menu dl dd:hover {
+  color: #1ED760;
+}
+
+footer .footer-nav .nav-icon {
+  margin: 0 15px 0 auto;
+  display: block;
+  flex: 1 0;
+  height: 346px;
+}
+
+footer .footer-nav .nav-icon ul {
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+footer .footer-nav .nav-icon ul li a i {
+  color: #FFF;
+  font-size: 24px;
+}
+
+footer .footer-nav .nav-lang {
+  color: #919496;
+  width: 100%;
+  font-size: 12px;
+  text-align: end;
+}
+
+footer .footer-nav .nav-lang span:hover {
+  cursor: pointer;
+  color: #1ED760;
+}
+
+footer .footer-nav .nav-lang i {
+  margin-right: 8px;
+}
+
+footer .footer-nav .copylight {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #919496;
+}
+
+footer .footer-nav .copylight ul {
+  display: flex;
+  margin: 0 45px 0 0;
+  padding: 0 0 0 15px;
+}
+
+footer .footer-nav .copylight ul li {
+  padding: 12px 0;
+  margin-right: 24px;
+}
+
+footer .footer-nav .copylight ul li:hover {
+  cursor: pointer;
+  color: #1ED760;
+}
+}
+
+footer .footer-nav .copylight span {
+  padding: 12px 0;
 }
