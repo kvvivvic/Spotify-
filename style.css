@@ -1,14 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  background-color: #999;
+  background-color: #000000;
 }
+
 header {
   width: 100%;
   height: 80px;
   background-color: #000;
 }
+
 header section {
   max-width: 1170px;
   height: 80px;
@@ -17,22 +20,25 @@ header section {
   display: flex;
   justify-content: space-between;
 }
+
 header section .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 header section .logo img {
   width: 136px;
   height: auto;
 }
 
-header section .menu ul{
+header section .menu ul {
   display: flex;
   height: 100%;
   justify-content: right;
   align-items: center;
 }
+
 header section .menu li {
   height: 100%;
   color: #FFF;
@@ -42,7 +48,8 @@ header section .menu li {
   font-size: 16px;
   line-height: 26px;
 }
-header section .menu li:nth-child(4){
+
+header section .menu li:nth-child(4) {
   display: inline-block;
   width: 1px;
   height: 16px;
@@ -50,7 +57,57 @@ header section .menu li:nth-child(4){
   margin: auto 17px;
   padding: 0;
 }
+
 header section .menu li:hover {
   color: #1ED760;
   cursor: pointer;
+}
+
+/* MAIN */
+main {
+  color: #000;
+  background-color: #ffcdd2;
+  background-size: auto;
+  text-align: center;
+}
+
+main .main {
+  padding: 72px 0;
+  max-width: 100%;
+  letter-spacing: 0.25px;
+}
+
+main .main h1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+main .main .sub-title {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+main .main .icon {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+main .main .icon img {
+  margin-right: 20px;
+}
+
+main .main .main-footer {
+  width: 100%;
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+main .main .main-footer p {
+  text-align: center;
+  max-width: 630px;
+  margin: 0 auto;
 }
